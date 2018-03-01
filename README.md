@@ -4,7 +4,7 @@ fluentd input plugin for incoming webhook from Kintone.
 
 ## Installation
 
-buid and gem install localy.
+Buiid and gem install localy.
 
 ## Usage
 
