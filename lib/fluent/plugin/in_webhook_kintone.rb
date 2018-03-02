@@ -19,7 +19,7 @@ module Fluent
     config_param :cert_path, :string, :default => nil
     config_param :private_key_path, :string, :default => nil
     config_param :chain_path, :string, :default => nil
-    config_param :document_root, :string, :default =< "/"
+    config_param :document_root, :string, :default =>"/"
 
     def start
       @thread = Thread.new(&method(:run))
